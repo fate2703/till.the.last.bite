@@ -1,0 +1,89 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scaled=1.0">
+	<link rel="stylesheet" href="home.css">
+	<title>HOME</title>
+</head>
+<body>
+<div class="header" align="center">
+	<a href="till.the.last.bite.html">
+	<img src="https://github.com/fatema05/till.the.last.bite/blob/master/title.png?raw=true" width="700px" height="150px">
+</div>
+	<ul>
+	<li><a href="till.the.last.bite.html" class="active">Home</a></li>
+	<li><a href="aboutus.html">About Us</a></li>
+	<li><a href="https://github.com/fatema05/till.the.last.bite/blob/master/Till%20the%20last%20bite-%20by%20Nuzhat%20Merchant!.pdf?raw=true">Menu</a></li>
+	<li><a href="gallery.html">Gallery</a></li>
+	<li><a href="#faqs">FAQs</a></li>
+	<li><a href="signup.html">Sign Up</a></li>
+</ul>
+<section style="background-image:url(https://github.com/fatema05/till.the.last.bite/blob/master/str34.jpg?raw=true);background-repeat: repeat;height:100%;margin:20px 0px">
+<br>
+<br>
+<div class="slideshow-container">
+
+<div class="mySlides fade" style="text-align:left">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://github.com/fatema05/till.the.last.bite/blob/master/Screenshot_2018-09-23-07-17-00-298_com.instagram.android.png?raw=true" style="width:500px;height:500px;">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade" style="text-align:left">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://github.com/fatema05/till.the.last.bite/blob/master/Screenshot_2018-09-23-07-11-27-876_com.instagram.android.png?raw=true" style="width:500px;height:500px;">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade" style="text-align:left">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://github.com/fatema05/till.the.last.bite/blob/master/Screenshot_2018-09-23-07-10-24-425_com.instagram.android.png?raw=true" style="width:500px;height:500px;">
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<div class="content">
+	Till the last bite, loved by many not only provides you good looking cakes but tasty ones too. Known for it’s taste, TLB is owned by a home baker who’s main motto is to fulfill your dessert dreams.<br> <b>You dream, we fulfill</b> is the goal. We believe in good quality and taste is what brings the outcome. 
+</div>
+</section>
+<footer>
+	<pre>
+
+
+	Contact: +91 9483809338	  Email-id: till.the.last.bite@gmail.com 	Instagram: till.the.last.bite
+
+
+</pre>
+</footer>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
